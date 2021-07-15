@@ -1,0 +1,63 @@
+body ,form{
+    background-image: url('img/background/wo.gif');
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: monospace;
+}
+
+
+form {
+    width: 500px;
+    margin: auto;
+    background: rgba(74, 87, 88, 0.534);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+h2 {
+    color: #fff;
+    text-align: center;
+    margin: 0%;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+input, text{
+    background: rgb(255, 255, 255);
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+    
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+#botom{
+    background: #31384a;
+    color: #fff;
+    padding: 20%;
+}
+
+#botom:hover {
+    cursor: pointer;
+}
+
+
+@media (max-width:480) {
+    form{
+        width: 100%;
+    }
+}

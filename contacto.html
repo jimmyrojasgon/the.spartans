@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Spartans.Games</title>
+    <link rel="stylesheet" href="navegador.css">
+    <link rel="stylesheet" href="contac.css">
+    <script src="contacto/form.js"></script>
+</head>
+
+
+<body>
+    <header class="full-width NavBarP">
+		<div class="full-width NavBarP-Logo"><img src="https://images.cooltext.com/5536656.png" width="200" height="60" alt="The Spartans.Games"></div>
+		<nav class="full-width NavBarP-Nav">
+			<ul class="full-width list-unstyled">
+				<li><a href="principal.html">Inicio</a></li>
+              <li><a href="juegos.html">juegos</a></li>
+              <li><a href="mision.html">mision</a></li>
+              <li><a href="visión.html">vision</a></li>
+              <li><a href="portafolio.html">portafolio</a></li>
+              <li><a href="quienes.html">Quienes somos</a></li>
+              <li><a href="contacto.html">Contactos</a></li>
+				
+					
+	</header>
+    <form action="enviar.php" method="POST" class="contact-form" onsubmit="return validar(this);"> 				
+        <div class="formulario">
+                    <div class="column">
+                        <h2>Contactos</h2> 
+
+                        <label for="nombre"> Nombre </label>
+                        <input type="text" name="nombre" id="nombre" class="form-input"
+                        onBlur="revisar(this)">
+                        
+                        <label for="email"> Email </label>
+                        <input type="text" name="email" id="email" class="form-input" onBlur="revisar(this)">
+                        
+                        <label for="asunto">Mensaje</label>
+                           <textarea name="mensaje" id="mensaje" class="form-input" ></textarea>
+                     
+                         <input   class="form-btn" type="submit" value="Enviar mensaje">
+                          </div>  
+    </form>
+    
+   
+    
+</body>
+</html>
